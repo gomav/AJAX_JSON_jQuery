@@ -11,6 +11,8 @@ $(function(){
             //desired effects for using the jQuery cycle plugin
             fx : 'fade',
             pause: 1,
+            //next and prev are essentially ids that need to be fleshed out
+            //in html index file
             next: '#next',
             prev: '#prev',
             speed: 1000,
