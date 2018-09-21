@@ -8,6 +8,14 @@
 </head>
 <body>
     <div class="container">
+        <script id="carimagestemplate" type="text/template"></script>
+
+            {{#cars}}
+            <div>
+                <img src="images/{{name}}.jpg" alt="Car images for "
+            </div>
+            {{/cars}}
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
